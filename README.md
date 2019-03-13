@@ -8,7 +8,9 @@
 - ```rm -r dirname``` - removing directory even if its not empty
 - ```mv file1 file2``` - moving file1 to file2
 - ```thunar``` - opens file on the filepath
-
+- ```cat filename``` - lists file content
+- ``` grep "keyword" ``` - finds the word in given list, Example: ```cat filename | grep "keyword" ```
+- ``` echo PATH``` - prints directories that contain executable files  
 ## Bash basics
 - find
     Searches through everything
