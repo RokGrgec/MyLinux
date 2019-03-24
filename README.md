@@ -11,6 +11,7 @@
 - ```cat filename``` - lists file content
 - ``` grep "keyword" ``` - finds the word in given list, Example: ```cat filename | grep "keyword" ```
 - ``` echo PATH``` - prints directories that contain executable files  
+- ``` sudo dpkg -i /path/to/DownloadedFile.deb``` - updating aplications from .dep files
 ## Bash basics
 - find
     Searches through everything
