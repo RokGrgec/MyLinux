@@ -1,3 +1,6 @@
+
+![The Island of Hvar](https://i.imgur.com/pCY2NYU.jpg)
+
 # My Linux Commands and Reminders
 
 ## Some basic commands
