@@ -70,8 +70,9 @@ sudo apt-get install -f
 ```
 
 Vmware:
-# Download from https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_workstation_player/
 ```
+# Download from https://my.vmware.com/web/vmware/free#desktop_end_user_computing/vmware_workstation_player/
+
 cd ~/Downloads
 chmod +x VMware-Player<ver>.bundle
 sudo ./VMware-Player<ver>.bundle
