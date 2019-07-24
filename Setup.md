@@ -62,6 +62,10 @@ Clementine:
 ```
 sudo apt-get install clementine
 ```
+Calibre:
+```
+sudo apt-get install calibre
+```
 qbittorrent:
 ```
 # Download qbittorrent from http://ftp.uk.debian.org/debian/pool/main/q/qbittorrent/qbittorrent_3.3.7-3_amd64.deb
@@ -85,11 +89,14 @@ sudo apt install virtualbox
 ```
 
 2. **tui & dev**
+```
 sudo apt-get install tmux ranger links htop build-essential python3 python3-pip
-
+```
 
 3. **misc**
+```
 sudo apt install rsync ristretto thunar-archive-plugin libreoffice-writer vlc xarchiver xfce4-panel-dev
+```
 
 4. **GPU Drivers**
 ```
