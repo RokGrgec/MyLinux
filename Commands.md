@@ -53,6 +53,15 @@
 - sed (replace specific part of the string)
     Example: sed s/day/night/ oldfile >newfile 
 
+- man (view system's reference manuals(man pages))
+    Example: man make | grep directory
+        - command prints all 'directory' references from given make manual
+
+- grep -HiREn . (recursively prints input strings in all files, and lines that it found those strings
+                   . represents the current working directory)
+    Example: grep -HiREn 'print' .
+        - prints all 'print' strings found in that directory and filenames & lines it was found in/at 
+
 It’s all about piping
 - Using | to pass the output of one command as an input
 to another

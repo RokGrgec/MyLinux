@@ -113,9 +113,9 @@ Ensure the two disks are automatically mounted in a known location
 ```
 $ cd /media
     $ sudo mkdir DiskLabel
-    $ sudo blkid
+    $ sudo blkid #listing partition/disks UUID-s 
     $ sudo umount /your/disk
-    $ sudo nano /etc/fstab #add disks using info from blkid
+    $ sudo nano /etc/fstab #add disks(UUID-s) using info from blkid
     $ sudo mount -a
     $ sudo chown -R $USER:$USER /media/disk # for admin rights on disk
 ```
